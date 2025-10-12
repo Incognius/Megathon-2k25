@@ -1,0 +1,76 @@
+/* Main header */
+.main-header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.main-header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.main-header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Search input styling */
+div[data-testid="stTextInput"] {
+    border-radius: 25px;
+    border: 2px solid #667eea;
+    background: white;
+}
+
+div[data-testid="stTextInput"] > div > div > input {
+    padding: 0.75rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    border: none;
+}
+
+/* Button styling */
+.stButton > button {
+    border-radius: 25px;
+    border: 2px solid #667eea;
+    background: white;
+    color: #667eea;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+}
+
+.stButton > button:hover {
+    background: #667eea;
+    color: white;
+}
+
+/* Risk meter container */
+div[data-testid="stPlotlyChart"] {
+    border: 2px solid #f0f0f0;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* Columns spacing */
+.css-1r6slb0 {
+    padding: 20px;
+}
+
+/* Success/Error messages */
+.stSuccess {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.stError {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Custom cards */
+div[data-testid="stMarkdownContainer"] {
+    padding: 10px;
+}

@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / C extensions
+__pycache__/
+*.py[cod]
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Secrets - NEVER commit secrets
+.streamlit/
+secrets.toml
+
+# Large Data Files & Intermediate Data
+# This ignores all files in the raw and processed data folders.
+data/raw/
+data/processed/
+
+# Database files
+*.db
+*.sqlite3
+
+# IDE and OS-specific files
+.idea/
+.vscode/
+*.DS_Store
